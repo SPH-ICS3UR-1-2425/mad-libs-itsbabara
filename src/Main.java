@@ -13,10 +13,22 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
+		System.out.println("Give me a day of the week ");
+		System.out.println("give me a sport");
 		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		System.out.println("give me a number: ");
+		int score = in.nextInt();
+		System.out.println("Give me a decimal number");
+		Double decNumber = in.nextDouble();
+		System.out.println ("Give me a name:");
+		in.nextLine();
+		String person1 = in.nextLine();
+		System.out.println("give me another name:");
+		String person2 = in.nextLine();
+		//flush
+		in.next();
+		String place = in.nextLine();
+		System.out.println("On "+dayoftheweek+" "person1+" and "+person2+");
 
 	}
 
